@@ -1,0 +1,111 @@
+.form-title {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.form-title h2 {
+  font-weight: normal;
+  color: #3aac90;
+  font-size: 26px;
+}
+
+.form-title h1 {
+  font-weight: bold;
+  color: #3aac90;
+  font-size: 34px;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+  font-weight: bold;
+  padding-top: 12%;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.card-1 .smaller {
+  font-size: 15px;
+}
+
+.card-2 .smaller {
+  font-size: 16.5px;
+  padding-top: 7%;
+}
+
+.cards-container {
+  padding: 25px 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-bookmark {
+  font-size: 45px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+/* Card 1 CSS */
+.card-1 {
+  background-color: #a52323;
+  color: white;
+  height: 130px;
+  width: 299px;
+  transition: 0.3s;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-1:hover {
+  background-color: #e6be1e;
+  color: white;
+  height: 130px;
+  width: 299px;
+  transform-origin: bottom right;
+  transition: 0.3s;
+}
+
+/* Card 2 CSS */
+
+.card-2 {
+  background-color: #7a7a7a;
+  color: #fff;
+  height: 130px;
+  width: 299px;
+  transform-origin: bottom right;
+  transition: 0.3s;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-2:hover {
+  background-color: #e6be1e;
+  color: #fff;
+  height: 130px;
+  width: 299px;
+  transform-origin: bottom right;
+  transition: 0.3s;
+}
+
+/* Card 3 CSS */
+
+.card-3 {
+  background-color: #159878;
+  color: #fff;
+  height: 130px;
+  width: 299px;
+  transition: 0.3s;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-3:hover {
+  background-color: #e6be1e;
+  color: #fff;
+  height: 130px;
+  width: 299px;
+  transform-origin: bottom right;
+  transition: 0.3s;
+}
