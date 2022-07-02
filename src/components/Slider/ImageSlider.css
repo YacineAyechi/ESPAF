@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .slider-img {
@@ -14,20 +15,36 @@
 .right-arrow,
 .left-arrow {
   position: absolute;
-  top: 50%;
+  top: 226, 77px;
   font-size: 3rem;
-  color: #000;
+  color: #d9d8d8df;
   z-index: 10;
   cursor: pointer;
   user-select: none;
 }
 
+.right-arrow:hover,
+.left-arrow:hover {
+  color: black;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
 .right-arrow {
-  right: 32px;
+  right: 0px;
 }
 
 .left-arrow {
-  left: 32px;
+  left: 0px;
 }
 
 .slide {

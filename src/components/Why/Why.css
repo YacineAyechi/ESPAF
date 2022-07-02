@@ -1,0 +1,22 @@
+.w-ctn {
+  background-color: #eeeeee;
+  margin-top: 50px;
+  user-select: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #1d823f;
+  text-align: justify;
+}
+
+.grid-item {
+  height: 80px;
+  width: 342px;
+  font-weight: bold;
+  padding-top: 32px;
+  font-size: 17px;
+  justify-items: center;
+  text-align: center;
+}

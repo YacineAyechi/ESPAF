@@ -1,0 +1,96 @@
+.gallery-container {
+  margin-top: 50px;
+  background-color: #eeeeee;
+  height: 720px;
+  user-select: none;
+}
+
+.gallery-title {
+  text-align: center;
+  color: #3aac90;
+}
+
+.gallery-title h2 {
+  padding-top: 25px;
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.gallery-title h1 {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.gallery-image-grid {
+  width: 480px;
+  height: 450px;
+  margin-left: 290px;
+  margin-top: 20px;
+}
+
+.gallery-btn {
+  padding: 9px 20px;
+  margin-left: 45%;
+  margin-top: 20px;
+  border: none;
+  background-color: #3aac90;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15.5px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  text-align: center;
+  margin-left: -15px;
+  cursor: pointer;
+}
+
+.l-arrow,
+.r-arrow {
+  position: absolute;
+  top: 287%;
+  font-size: 3rem;
+  color: #d9d8d8df;
+  cursor: pointer;
+}
+
+.l-arrow:hover,
+.r-arrow:hover {
+  color: black;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.l-arrow {
+  left: 470px;
+}
+
+.r-arrow {
+  right: 470px;
+}
+
+.as img {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.act {
+  border: 2px solid #3aac90;
+  transition: all 300ms;
+}
+
+.white {
+  height: 100px;
+}

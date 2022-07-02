@@ -1,3 +1,7 @@
+.branche-container {
+  user-select: none;
+}
+
 .form-title {
   text-align: center;
   padding-top: 25px;
@@ -38,6 +42,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 80px;
 }
 
 .icon-bookmark {
@@ -59,12 +64,15 @@
 }
 
 .card-1:hover {
-  background-color: #e6be1e;
+  background-color: #c02a2a;
   color: white;
   height: 130px;
   width: 299px;
   transform-origin: bottom right;
   transition: 0.3s;
+  transform-origin: center center;
+  transition: 0.4s;
+  transform: scale(1.07);
 }
 
 /* Card 2 CSS */
@@ -81,12 +89,15 @@
 }
 
 .card-2:hover {
-  background-color: #e6be1e;
+  background-color: #9c9a9a;
   color: #fff;
   height: 130px;
   width: 299px;
   transform-origin: bottom right;
   transition: 0.3s;
+  transform-origin: center center;
+  transition: 0.4s;
+  transform: scale(1.07);
 }
 
 /* Card 3 CSS */
@@ -102,10 +113,11 @@
 }
 
 .card-3:hover {
-  background-color: #e6be1e;
+  background-color: #17b48d;
   color: #fff;
   height: 130px;
   width: 299px;
-  transform-origin: bottom right;
-  transition: 0.3s;
+  transform-origin: center center;
+  transition: 0.4s;
+  transform: scale(1.07);
 }

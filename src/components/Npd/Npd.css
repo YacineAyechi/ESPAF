@@ -1,0 +1,32 @@
+.npd-dtitle {
+  text-align: center;
+  padding-top: 45px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.npd-dtitle h2 {
+  font-weight: normal;
+  color: #3aac90;
+  font-size: 26px;
+}
+
+.npd-dtitle h1 {
+  font-weight: bold;
+  color: #3aac90;
+  font-size: 34px;
+}
+
+.npd-title {
+  color: #a52323;
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+.npd-para {
+  font-size: 16px;
+}
+
+.npd-para p {
+  margin-top: 10px;
+}
